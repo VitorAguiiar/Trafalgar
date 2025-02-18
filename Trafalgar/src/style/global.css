@@ -1,0 +1,13 @@
+*{
+   margin: 0;
+    padding: 0; 
+}
+
+:root{
+    --primary-color: #458FF6;
+    --menu-text-color: #1F1534;
+}
+
+body{
+    
+}

@@ -1,0 +1,27 @@
+@import url(global.css);
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: (--menu-text-color);
+    margin: 56px 192px 0 191px;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: (--menu-text-color);
+    font-size: 18px;
+    font-weight: regular;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color: aqua;
+}
