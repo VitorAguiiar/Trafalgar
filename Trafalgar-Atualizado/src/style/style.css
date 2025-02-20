@@ -1,0 +1,118 @@
+@import url(global.css);
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--menu-text-color);
+    margin: 56px 192px 0 191px;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--menu-text-color);
+    font-size: 18px;
+    font-weight: Regular;
+    transition: 0.3s;
+    font-family: "Mulish";
+}
+nav ul li a:hover{
+    color: aqua;
+}
+
+main{
+    justify-content: space-between;
+    color: var(--menu-text-color);
+    margin: 700px 192px 0 191px;
+    
+}
+
+
+.inicio{
+  inset-inline-start: 20px;
+  position: absolute;
+  top: 150px;
+  height: 100%;
+  width: 100%;
+}
+.inicio img{
+  width: 90px;
+  height: 108px;
+
+}
+
+.inicio h1{
+    font-family: "Mulish";
+    font-weight: bold; 
+    margin-bottom: 35px;
+    margin-left: 108px;
+}
+.inicio #p{
+    font-family: "Mulish";
+    font-weight: lighter;
+    margin-left: 108px;
+}
+
+.inicio button{
+    font-family: "Mulish";
+    font-weight: bold;
+    background-color: var(--primary-color);
+    width: 200px;
+    height: 56px;
+    border-radius: 40px;
+    margin-top: 35px;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+    margin-left: 108px;
+}
+.image{
+    position: absolute;
+    top: 150px;
+    inset-inline-end: 163px;
+    width: 480px;
+}
+
+
+#ilustracao{
+    width: 500px;
+    height: 450px;
+    
+}
+
+#servicos{
+   inset-inline-start: center;
+   position: absolute;
+   bottom: -25vw;
+}
+
+#servicos h1{
+   font-family: "Mulish";
+   font-weight: bold;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   line-height: 2;
+   
+}
+#servicos p{
+    font-family: "Mulish";
+    font-weight: lighter;
+    text-align: center; 
+    margin: 0 auto; 
+
+}
+#linha{
+    width: 90px;
+    height: 2px;
+    background-color: black;
+    margin: 40px auto;
+}
